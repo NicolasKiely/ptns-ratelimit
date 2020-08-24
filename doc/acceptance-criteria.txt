@@ -1,0 +1,6 @@
+AC-1) A web service using synchronous http calls to fetch external resources by URL
+AC-2) Should return response in a reasonable amount of time
+AC-3) Does not violate rate limit policies for a given domain
+AC-4) Allow the administrative setting of rate limit policies per domain
+AC-5) Should have some basic form of security
+AC-6) Adminstrative settings should be persistent
