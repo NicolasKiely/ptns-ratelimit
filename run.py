@@ -1,5 +1,6 @@
 import click
 
+import src.cli.http_request
 import src.cli.ratelimit
 
 
@@ -9,6 +10,7 @@ def root():
 
 
 src.cli.ratelimit.register(root)
+src.cli.http_request.register(root)
 
 
 if __name__ == "__main__":
